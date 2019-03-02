@@ -1,0 +1,39 @@
+*{
+	margin: 0;padding: 0;
+}
+.oList li{
+	width: 100%;
+	height: 2.5rem;
+	font-size: 0.3rem;
+	border-bottom: 0.01rem solid red;
+}
+.oList li img{
+	width: 1.6rem;
+	display: inline-block;
+}
+
+.oList li .C-mz{
+	width: 4rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	float: right;
+}
+.oList li .del{
+	
+}
+.oList li .C-jg{
+	margin-left: 0.3rem;
+}
+.oList .C-gid{
+	
+}
+.oList .jia{
+	margin-left: 0.3rem;
+.C-sum{
+	margin-left: 1rem;
+}
+.oList .del{
+	
+}
+

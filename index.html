@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <script>
+                     window.onload = function(){
+                     
+                     getRem(720,100)
+                     };
+                     window.onresize = function(){
+                     getRem(720,100)
+                     };
+                     function getRem(pwidth,prem){
+                       var html = document.getElementsByTagName("html")[0];
+                       var oWidth = document.body.clientWidth || document.documentElement.clientWidth;
+                        html.style.fontSize = oWidth/pwidth*prem + "px";
+            }
+                    </script>
+    <script src="js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>           
+    <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+    
+</head>
+<body>
+    <header>
+        <span class="menu">三</span>
+        <p>首页</p>
+        
+    </header>
+    <section>
+       
+        
+    </section>
+    <article class="bk">
+    	
+    </article>
+    <footer>
+        <figure class="shouye">
+            <span>微</span>
+            <figcaption>首页</figcaption>
+        </figure>
+        <figure class="gouwuche">
+            <span>通</span>
+            <figcaption>购物车</figcaption>
+        </figure> 
+        <figure class="my"> 
+            <span>发</span>
+            <figcaption>我的</figcaption>
+        </figure>
+        
+        
+
+    </footer>
+    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

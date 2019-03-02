@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <script>
+                     window.onload = function(){
+                     
+                     getRem(720,100)
+                     };
+                     window.onresize = function(){
+                     getRem(720,100)
+                     };
+                     function getRem(pwidth,prem){
+                       var html = document.getElementsByTagName("html")[0];
+                       var oWidth = document.body.clientWidth || document.documentElement.clientWidth;
+                        html.style.fontSize = oWidth/pwidth*prem + "px";
+            }
+                    </script>
+                    <style type="text/css">
+                    	input{
+                    		height: 1rem;
+                    		width: 100%;
+                    	}
+                    	.txt,.psw{
+                    		font-size: 0.3rem;
+                    	}
+                    	.login,.register{
+                    		background: #434343;
+                    		color: white;
+                    		font-size: 0.5rem;
+                    	}
+                    </style>
+    <script src="js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>  
+    <script src="js/cookie.js" type="text/javascript" charset="utf-8"></script>
+    
+</head>
+<body>
+    
+    
+        <article>
+        	<input type="text" name="" class="txt" id="" value="" placeholder="输入用户名"/><br/>
+        	<input type="" name="" class="psw" id="" value="" placeholder="输入密码"/><br/>
+        	<input type="button" class="login" name="" id="" value="登录" />
+        	<input type="button" class="register" name="" id="" value="注册" />
+        </article>
+        <article class="hello"></article>
+        
+  <script src="js/wode.js" type="text/javascript" charset="utf-8"></script>
+    
+</body>
+</html>
